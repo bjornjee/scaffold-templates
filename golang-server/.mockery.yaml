@@ -1,0 +1,8 @@
+with-expecter: true
+dir: internal/mocks
+outpkg: mocks
+packages:
+  # Add your packages and interfaces here. Example:
+  # github.com/yourorg/yourproject/internal/clients:
+  #   interfaces:
+  #     HTTPClient:
