@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/main.jsbundle
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserdata
+
+# Android
+android/build/
+android/app/build/
+android/app/src/main/assets/index.android.bundle
+*.apk
+*.aab
+local.properties
+
+# Metro
+.metro-health-check-*
+
+# Bundler
+*.jsbundle
+*.hbc
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
